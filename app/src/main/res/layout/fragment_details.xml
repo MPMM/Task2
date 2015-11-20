@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/fragment_details_scroll_view">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+
+		<TextView
+			android:id="@+id/details_fragment_text_view_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textColor="@color/details_titleFontColor"
+			android:textSize="@dimen/details_titleFontSize" />
+
+		<ImageView
+			android:id="@+id/details_fragment_image_view_picture1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:scaleType="centerInside"
+			tools:ignore="ContentDescription" />
+
+		<TextView
+			android:id="@+id/details_fragment_text_view_pictureDescription1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textColor="@color/details_pictureDescriptionFontColor"
+			android:textSize="@dimen/details_pictureDescriptionFontSize" />
+
+		<TextView
+			android:id="@+id/details_fragment_text_view_paragraph1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/activity_vertical_margin"
+			android:layout_marginTop="@dimen/activity_vertical_margin"
+			android:background="@color/details_paragraphBackCround"
+			android:textColor="@color/details_paragraphFontColor"
+			android:textSize="@dimen/details_paragraphFontSize" />
+
+		<ImageView
+			android:id="@+id/details_fragment_image_view_picture2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:scaleType="fitCenter"
+			tools:ignore="ContentDescription" />
+
+		<TextView
+			android:id="@+id/details_fragment_text_view_pictureDescription2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textColor="@color/details_pictureDescriptionFontColor"
+			android:textSize="@dimen/details_pictureDescriptionFontSize" />
+
+		<TextView
+			android:id="@+id/details_fragment_text_view_paragraph2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/activity_vertical_margin"
+			android:layout_marginTop="@dimen/activity_vertical_margin"
+			android:background="@color/details_paragraphBackCround"
+			android:textColor="@color/details_paragraphFontColor"
+			android:textSize="@dimen/details_paragraphFontSize" />
+
+		<ImageView
+			android:id="@+id/details_fragment_image_view_picture3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:scaleType="fitCenter"
+			tools:ignore="ContentDescription" />
+
+		<TextView
+			android:id="@+id/details_fragment_text_view_pictureDescription3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textColor="@color/details_pictureDescriptionFontColor"
+			android:textSize="@dimen/details_pictureDescriptionFontSize" />
+
+		<TextView
+			android:id="@+id/details_fragment_text_view_paragraph3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/activity_vertical_margin"
+			android:layout_marginTop="@dimen/activity_vertical_margin"
+			android:background="@color/details_paragraphBackCround"
+			android:textColor="@color/details_paragraphFontColor"
+			android:textSize="@dimen/details_paragraphFontSize" />
+
+	</LinearLayout>
+</ScrollView>

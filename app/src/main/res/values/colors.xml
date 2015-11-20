@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="title_list_titleFontColor">#f25f15</color>
+    <color name="title_list_titleDescriptFontColor">#ffffff</color>
+    
+    <color name="details_titleFontColor">#f25f15</color>
+    <color name="details_pictureDescriptionFontColor">#ffffff</color>
+    <color name="details_paragraphFontColor">#ffffff</color>
+    <color name="details_paragraphBackCround">#7015003e</color>
+</resources>
